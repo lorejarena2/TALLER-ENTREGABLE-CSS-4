@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+header{
+    height: 80px;
+    background-color: black;
+}
+
+header h1{
+    color: #ecb615;
+    padding: 5px;
+    font-size: 50px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+aside{
+width: 35%;
+height: 100%;
+background-color:#9796a5;
+padding-left: 80px;
+padding-top: 50px;
+font-size: 45px;
+}
+
+section{
+    padding: 20px;
+    width: 65%;
+    height: 100%;
+    overflow: scroll;
+}
+
+footer{
+    height: 15%;
+    background-color:#9b9b9c;
+}
+
+main aside ul li{
+    color: #07067e;
+}
+
+main aside ul li a{
+    text-decoration: none;
+    color: #07067e;
+}
+span li{
+    color:#ecb615;
+}
+
+section div h2{
+    font-size: 30px;
+    color: #050da2;
+}
+
+section div p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.texto{
+    padding-top: 10px;
+}
+section img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.entrada p{
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment p{
+    padding: 15px;
+}
+
+.fuertes_img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.fuertes p{
+    padding-top: 15px;
+}
+
+.fuertes_img img{
+    width: 450px;
+    padding-right: 30px;
+}
+
+.fuertes_comm{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.fuertes_comm p{   
+   padding-left: 180px;
+   padding-right: 180px;
+}
+
+.ensaladas_img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ensaladas p{
+    padding-top: 10px;
+}
+
+.ensaladas_img img{
+    width: 250px;
+    height: 250px;
+}
+
+.ensaladas_comm{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ensaladas_comm p{
+    padding-left: 90px;
+   padding-right: 90px;
+}
+
+.postres_img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.postres p{
+    padding-top: 10px;
+}
+
+.postres_img img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    padding-left: 10px;
+   padding-right: 10px;
+}
+
+.postres_comm{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.postres_comm p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bebidas_img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bebidas p{
+    padding-top: 10px;
+}
+
+.bebidas_img img{
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.bebidas_comm{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bebidas_comm p{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.foot{
+padding-top: 20px;
+}
